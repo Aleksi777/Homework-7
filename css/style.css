@@ -3,6 +3,7 @@
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
+    
    
 }
 /*მთავარი-MAIN*/
@@ -18,11 +19,13 @@ header{
    top: 0;
    left: 50%;
    transform: translateX(-50%);
+   right: 0;
    background: #262626;
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 0 320px;
+   z-index: 1;
 }
 
 
@@ -45,3 +48,76 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 /*დამთავრდა HEADER*/
+
+/*დაიწყო SECTION*/
+.section1{
+    width: 100%;
+    height: 1080px;
+    position: relative;
+    top: 120px;
+    
+   
+}
+.didiphoto{
+    width: 100%;
+    height: 100%;
+    
+}
+.div_textsearch{
+    width: 78%;
+    position: absolute;
+    top: 242px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.title_1{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 82px;
+line-height: 96px;
+color: #FFFFFF;
+}
+.text_under{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #FFFFFF;
+margin-top: 162px;
+margin-bottom: 23px;
+}
+
+.div_blur{
+    width: 463px;
+    height: 71px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2px);
+    
+}
+.plant{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+margin-right: 248px;
+
+
+}
+.img_Search{
+font-size: 50px;
+}
+/*დამთავრდა SECTION*/
