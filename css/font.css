@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Bold.eot');
+    src: url('../font/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Inter-Bold.woff2') format('woff2'),
+        url('../font/Inter-Bold.woff') format('woff'),
+        url('../font/Inter-Bold.ttf') format('truetype'),
+        url('../font/Inter-Bold.svg#Inter-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../font/WorkSans-Bold.eot');
+    src: url('../font/WorkSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/WorkSans-Bold.woff2') format('woff2'),
+        url('../font/WorkSans-Bold.woff') format('woff'),
+        url('../font/WorkSans-Bold.ttf') format('truetype'),
+        url('../font/WorkSans-Bold.svg#WorkSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
